@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Simple Video Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Video Player</h1>
+
+  <!-- Input box (only homepage) -->
+  <div class="input-box" id="inputBox">
+    <input id="videoLink" placeholder="Paste direct video link (.mp4)" />
+    <button onclick="generate()">Play & Generate Link</button>
+  </div>
+
+  <!-- Video Player -->
+  <div class="player-box">
+    <video id="player" controls></video>
+  </div>
+
+  <!-- Custom middle area -->
+  <div class="custom-area">
+    <a href="https://example.com" target="_blank">👉 Visit My Website</a>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button onclick="downloadVideo()">Download</button>
+    <button onclick="sharePage()">Share</button>
+  </div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8698446369307388"
+     crossorigin="anonymous"></script>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

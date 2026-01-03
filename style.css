@@ -1,0 +1,79 @@
+body {
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-box button {
+  padding: 10px 15px;
+  border: none;
+  background: #22c55e;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.player-box video {
+  width: 100%;
+  border-radius: 10px;
+  background: black;
+}
+
+.custom-area {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.custom-area a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.controls button {
+  padding: 8px 15px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ads {
+  margin-top: 15px;
+  padding: 10px;
+  background: #020617;
+  text-align: center;
+  border-radius: 8px;
+}
